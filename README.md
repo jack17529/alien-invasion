@@ -37,7 +37,7 @@ Although the application is extensivly tested on all the edge cases that came in
 ## TODO
 
 1. Make a dockerfile to make the installation robust on all platforms.
-2. Writing high quality test cases.
+2. Writing high quality tests.
 
 ## Author
 
