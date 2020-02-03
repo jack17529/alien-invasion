@@ -1,0 +1,6 @@
+a north=c south=f
+c east=d south=a
+d west=c
+b north=f west=e
+e east=b
+f north=a south=b

@@ -1,0 +1,9 @@
+Cranston north=Dersting south=Apehole west=Flume
+Dersting north=Martinstonton south=Cranston west=Dave
+Flume north=Dave east=Cranston south=Terpy west=Nogbutt
+Apehole north=Cranston south=Combonugget west=Terpy
+Martinstonton south=Dersting
+Dave east=Dersting south=Flume
+Nogbutt east=Flume
+Terpy north=Flume east=Apehole
+Combonugget north=Apehole

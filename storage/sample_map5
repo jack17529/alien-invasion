@@ -1,0 +1,9 @@
+C11 east=C12 south=C21
+C12 west=C11 south=C22 east=C13
+C13 west=C12 south=C23
+C21 east=C22 south=C31 north=C11
+C22 east=C23 south=C32 north=C12 west=C21
+C23 west=C22 south=C33 north=C13
+C31 east=C32 north=C21
+C32 east=C33 north=C22 west=C31
+C33 west=C32 north=C23
