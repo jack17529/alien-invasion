@@ -50,7 +50,7 @@ One can easily write C++ code for this.
 
 ## Contributing
 
-Good criticism will be highly appreciated. Feel free to report issues or ask questions.
+Good criticism will be highly appreciated. Feel free to report issues, submit PR or ask questions.
 
 ## Author
 
