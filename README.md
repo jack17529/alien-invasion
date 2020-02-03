@@ -24,7 +24,7 @@ Tested on Ubuntu. No prerequisites are required except Golang.
 
 6. Only one alien move at a time, but it can recieve many consecutive chances to move at random.
 
-7. The algorithm is works in a few seconds always, but if the map supplied is too big it can be overwhelming for the best algorithm known to man. So please make changes according to your machine efficiency according to the lv parameter in Line 70 in `cmd/alien-invasion/main.go` file.
+7. The algorithm is works in a few seconds always, but if the map supplied is too big it can be overwhelming for the best algorithm known to man. So please make changes according to your machine efficiency according to the `lv` parameter in Line 70 in `cmd/alien-invasion/main.go` file.
 
 8. `4*(no. of cities)<<10^8` and also `4*(no. of cities with 1 alien after they have come)<<10^8` for the simulation to complete properly on a normal machine.
 
@@ -33,6 +33,15 @@ Tested on Ubuntu. No prerequisites are required except Golang.
 Storage folder contains many sample maps to test the code. Few of them were taken from the net randomly.
 Use `make test` to run the test cases.
 Although the application is extensivly tested on all the edge cases that came in my mind for durability. I wrote trivial test cases so that any developer watching can understand my project, but the storage covers all the edge cases maps.
+
+Still excited, want to generate more random test cases?
+I got you covered.
+1. Just generate a grid with dimension Height x Width of cities connected to all the neighbouring cities.
+2. Select a random city and delete one of the random neighbours road.
+3. Execute step 2 random number of times while making sure that the graph is fully connected.
+4. And Voila, you have a random map of X.
+
+One can easily write C++ code for this.
 
 ## TODO
 
