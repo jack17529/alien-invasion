@@ -1,6 +1,6 @@
 # alien-invasion
 
-Most random and most optimized simulation of alien invasion problem.
+Most random and most optimized simulation of alien invasion problem. The code's time complexity is flexible in order to get the best performance for simulation.
 
 ## Installation
 
