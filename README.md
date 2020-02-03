@@ -7,7 +7,7 @@ Most random and most optimized simulation of alien invasion problem.
 Tested on Ubuntu. No prerequisites are required except Golang.
 
 1. Download the project and place it in your GOPATH.
-2. Use `make` command to install custom packages and build the binary file.
+2. Use `make` command to install custom packages, execute tests and build the binary file.
 3. Run using `./main -map=storage/sample_map -aliens=4`
 
 ## Assumptions
