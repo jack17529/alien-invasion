@@ -48,6 +48,10 @@ One can easily write C++ code for this.
 1. Make a dockerfile to make the installation robust on all platforms.
 2. Writing high quality tests.
 
+## Contributing
+
+Good criticism will be highly appriciated. Feel free to report issues or ask questions.
+
 ## Author
 
 Shivam Sharma(jack17529)
