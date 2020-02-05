@@ -1,5 +1,7 @@
 # alien-invasion
 
+![Travis (.com)](https://img.shields.io/travis/com/jack17529/alien-invasion)
+
 Most random and most optimized simulation of alien invasion problem. The code's time complexity is flexible in order to get the best performance for simulation.
 
 ## Installation
