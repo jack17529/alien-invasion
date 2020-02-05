@@ -1,0 +1,20 @@
+dist: bionic
+
+language: go
+
+go_import_path: github.com/faith/alien-invasion
+
+go:
+  - 1.13.x
+
+git:
+  depth: 1
+
+install: true
+
+#notifications:
+#email: false
+
+script:
+  - go test -v ./pkg/Util
+  - go test -v ./pkg/Destroy
