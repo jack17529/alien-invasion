@@ -41,7 +41,7 @@ I got you covered.
 1. Just generate a grid with dimension Height x Width of cities connected to all the neighbouring cities.
 2. Select a random city and delete one of the random neighbours road.
 3. Execute step 2 random number of times while making sure that the graph is fully connected.
-4. And Voila, you have a random map of X.
+4. Et voilà, you have a random map of X.
 
 One can easily write C++ code for this.
 
